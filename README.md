@@ -5,7 +5,7 @@ Arduino Uno R3 moving car robot uses a TB6612 1.2A Motor Driver to control two D
  To replicate this project, you will need the following components:
  * Arduino Uno R3
  * TB6612 1.2A Motor Driver
- * Ultrasonic Sensor HC-SR04
+ * Ultrasonic Sensor HC-SR04 or IR sensor module with remote (depending on your preference)
  * SparkFun Motor Driver - Dual TB6612FNG (1A) Arduino Library
  * 2x Small 6V DC Motor
  * 9V Battery Clip for Arduino
