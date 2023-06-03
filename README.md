@@ -12,7 +12,7 @@ Arduino Uno R3 moving car robot uses a TB6612 1.2A Motor Driver to control two D
  * 9V Battery
  * Robot Chasis Kit ([Link](https://www.adafruit.com/product/3244 "Link") to the one I used)
  
- ## Installation and Setup
+ ### Installation and Setup
  * Connect the TB6612 1.2A Motor Driver to the Arduino Uno R3. Ensure proper connections are made to control the two DC motors.
  * Connect the Ultrasonic Sensor HC-SR04 to the Arduino Uno R3. Make sure to connect the required pins for both trigger and echo signals.
  * Install the SparkFun Motor Driver - Dual TB6612FNG (1A) Arduino Library. This library will provide the necessary functions to control the motors.
