@@ -3,7 +3,7 @@ An autonomous Arduino-based robot car that navigates using ultrasonic sensors fo
  
 ### Hardware Requirements
 To replicate this project, you will need the following components:
-#### Essential Components
+##### Essential Components
  * Arduino Uno R3 - Main microcontroller
  * TB6612 1.2A Motor Driver - Dual motor control
  * 2x Small 6V DC Motors - Robot locomotion
@@ -18,7 +18,7 @@ To replicate this project, you will need the following components:
  * SparkFun Motor Driver - Dual TB6612FNG (1A) Library
 
 ### Installation and Setup
-### Hardware Assembly
+#### Hardware Assembly
 1. Mount Components: Assemble the robot chassis and mount the Arduino Uno R3
 2. Motor Driver Connection: Connect the TB6612 motor driver to the Arduino following the wiring diagram
 3. Motor Installation: Attach the two DC motors to the chassis and connect to the motor driver
