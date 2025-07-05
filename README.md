@@ -1,22 +1,29 @@
 # ArduinoCarRobot
-Arduino Uno R3 moving car robot uses a TB6612 1.2A Motor Driver to control two DC motors. It currently has an Ultrasonic Sensor HC-SR04 attached to sense any objects in front. The robot uses the SparkFun Motor Driver - Dual TB6612FNG (1A) Arduino Library to control both motors that move the car forward, backward, right, and left and allow it to brake.
+An autonomous Arduino-based robot car that navigates using ultrasonic sensors for obstacle detection and avoidance. The robot features dual control modes: autonomous navigation with obstacle detection and manual remote control via IR sensor. Built on Arduino Uno R3 with a TB6612 motor driver for precise movement control.
  
- ### Hardware Requirements
- To replicate this project, you will need the following components:
- * Arduino Uno R3
- * TB6612 1.2A Motor Driver
- * Ultrasonic Sensor HC-SR04 or IR sensor module with remote (depending on your preference)
- * SparkFun Motor Driver - Dual TB6612FNG (1A) Arduino Library
- * 2x Small 6V DC Motor
- * 9V Battery Clip for Arduino
- * 9V Battery
- * Robot Chasis Kit ([Link](https://www.adafruit.com/product/3244 "Link") to the one I used)
- 
- ### Installation and Setup
- * Connect the TB6612 1.2A Motor Driver to the Arduino Uno R3. Ensure proper connections are made to control the two DC motors.
- * Connect the Ultrasonic Sensor HC-SR04 to the Arduino Uno R3. Make sure to connect the required pins for both trigger and echo signals.
- * Download Arduino IDE 2.1.0
- * Install the SparkFun Motor Driver - Dual TB6612FNG (1A) Arduino Library. This library will provide the necessary functions to control the motors.
+### Hardware Requirements
+To replicate this project, you will need the following components:
+#### Essential Components
+ * Arduino Uno R3 - Main microcontroller
+ * TB6612 1.2A Motor Driver - Dual motor control
+ * 2x Small 6V DC Motors - Robot locomotion
+ * 9V Battery + Battery Clip - Power supply
+ * Robot Chassis Kit - [Adafruit 2WD Robot Chassis](https://www.adafruit.com/product/3244 "Link")
+#### Sensors
+ * HC-SR04 Ultrasonic Sensor - For autonomous obstacle detection
+ * IR Sensor Module with Remote - For manual remote control
+
+### Software Requirements
+ * Arduino IDE 2.1.0+
+ * SparkFun Motor Driver - Dual TB6612FNG (1A) Library
+
+### Installation and Setup
+### Hardware Assembly
+1. Mount Components: Assemble the robot chassis and mount the Arduino Uno R3
+2. Motor Driver Connection: Connect the TB6612 motor driver to the Arduino following the wiring diagram
+3. Motor Installation: Attach the two DC motors to the chassis and connect to the motor driver
+4. Sensor Setup: Connect either the HC-SR04 ultrasonic sensor or IR sensor module based on desired mode
+5. Power Connection: Connect the 9V battery clip to power the system
 
 ## Car Robot Photos
  
