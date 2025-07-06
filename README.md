@@ -1,24 +1,24 @@
 # ArduinoCarRobot
 An autonomous Arduino-based robot car that navigates using ultrasonic sensors for obstacle detection and avoidance. The robot features dual control modes: autonomous navigation with obstacle detection and manual remote control via IR sensor. Built on Arduino Uno R3 with a TB6612 motor driver for precise movement control.
  
-### Hardware Requirements
+## Hardware Requirements
 To replicate this project, you will need the following components:
-##### Essential Components
+### Essential Components
  * Arduino Uno R3 - Main microcontroller
  * TB6612 1.2A Motor Driver - Dual motor control
  * 2x Small 6V DC Motors - Robot locomotion
  * 9V Battery + Battery Clip - Power supply
  * Robot Chassis Kit - [Adafruit 2WD Robot Chassis](https://www.adafruit.com/product/3244 "Link")
-#### Sensors
+### Sensors
  * HC-SR04 Ultrasonic Sensor - For autonomous obstacle detection
  * IR Sensor Module with Remote - For manual remote control
 
-### Software Requirements
+## Software Requirements
  * Arduino IDE 2.1.0+
  * SparkFun Motor Driver - Dual TB6612FNG (1A) Library
 
-### Installation and Setup
-#### Hardware Assembly
+## Installation and Setup
+### Hardware Assembly
 1. Mount Components: Assemble the robot chassis and mount the Arduino Uno R3
 2. Motor Driver Connection: Connect the TB6612 motor driver to the Arduino following the wiring diagram
 3. Motor Installation: Attach the two DC motors to the chassis and connect to the motor driver
